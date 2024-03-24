@@ -154,6 +154,9 @@ body {
             }
           }
         }
+      #eco-cycle{
+        width: 100%;
+      }
     }
     //Notre histoire
     #histoire{
@@ -207,6 +210,9 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+      img{
+        height: 300px;
+      }
       h2{
         margin-bottom: 64px;
       }
@@ -235,11 +241,343 @@ body {
             display: flex;
             flex-direction: column;
             text-align: left;
+            label{
+              padding-left: 8px;
+            }
+            input{
+              border: none;
+              border-radius: 8px;
+              margin: 8px 0;
+              padding: 8px;
+            }
+          }
+        }
+        button{
+          background-color: rgba(171, 239, 99, 0.8);
+          color: $text;
+          border: none;
+          border-radius: 8px;
+          padding: 8px 16px;
+          margin-top: 18px;
+          font-family: 'Poppins-SemiBold', sans-serif;
+          font-size: 18px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  footer{
+    background-color: rgba(174, 224, 182, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 120px;
+    ul{
+        list-style: none;
+      padding: 0;
+        li{
+            font-family: 'Poppins-SemiBold', sans-serif;
+            padding: 6px 0;
+            a{
+            text-decoration: none;
+            color: $text;
+            }
+        }
+    }
+    .reseau{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .link-reseau{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 90px;
+        }
+        #insta{
+          height: 91.27px;
+        }
+        #twitter{
+          height: 101.4px;
+        }
+        #fb{
+          height: 90px;
+        }
+      }
+    }
+  }
+}
+//Responsive ordinateur portable
+@media screen and (max-width: 1450px){
+  body{
+    section{
+      margin: 0 60px;
+    }
+    main{
+      #valeurs .valeur .card-valeur{
+        width: 300px;
+        padding: 12px 18px;
+      }
+      .membres {
+        padding: 0 60px 48px 60px;
+        .main-membres .row-membres .card-membre{
+          width: 600px;
+          padding: 24px;
+          img{
+            height: 200px;
+          }
+        }
+      }
+      .soutenir{
+        img{
+          height: 200px;
+        }
+      }
+    }
+    footer{
+      .reseau{
+        img{
+          height: 75px;
+        }
+        .link-reseau{
+          img{
+            width: 60px;
+          }
+          #insta{
+            height: 61.27px;
+          }
+          #twitter{
+            height: 71.4px;
+          }
+          #fb{
+            height: 60px;
           }
         }
       }
     }
   }
+}
+//Responsive tablette horizontale
+@media screen and (max-width: 1165px){
+  body {
+    section {
+      margin: 0 40px;
+    }
+    main {
+      #valeurs .valeur .card-valeur {
+        width: 250px;
+        padding: 12px 18px;
+      }
+      .membres{
+        padding: 0 40px 48px 40px;
+        .main-membres .row-membres .card-membre {
+          width: 500px;
+          padding: 24px;
+
+          img {
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+//Responsive tablette verticale
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  body {
+    h1{
+      font-size: 40px;
+      color: $accent;
+    }
+    h2{
+      font-size: 28px;
+    }
+    h3{
+      font-size: 22px;
+    }
+    nav{
+        padding-left: 5px;
+        .logo img{
+          height: 60px;
+        }
+    }
+    section {
+    margin: 0 20px;
+    }
+    main {
+      .introduction {
+        .presentation {
+          gap: 18px;
+          .present-img {
+            img {
+              height: 200px;
+            }
+          }
+        }
+      }
+      #valeurs .valeur .card-valeur {
+        width: 200px;
+        padding: 12px 18px;
+      }
+      .membres {
+        padding: 0 20px 48px 20px;
+        .main-membres {
+          align-items: center;
+          .row-membres{
+            flex-direction: column;
+            gap: 24px;
+            .card-membre {
+              width: 500px;
+              padding: 24px;
+              img {
+                height: 150px;
+              }
+            }
+          }
+        }
+      }
+      .soutenir{
+        margin: 0;
+      }
+    }
+    footer{
+      padding: 24px 20px;
+      div{
+        width: 230px;
+      }
+      .apropos{
+        ul{
+          li{
+            padding: 6px 0;
+          }
+        }
+      }
+      .reseau {
+        .link-reseau {
+          img {
+            width: 50px;
+          }
+          #insta {
+            height: 51.27px;
+          }
+          #twitter {
+            height: 61.4px;
+          }
+          #fb {
+            height: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+//Responsive mobile
+@media screen and (max-width: 767px) {
+  body{
+    p, label{
+        font-size: 16px;
+    }
+    h1{
+      font-size: 30px;
+      color: $accent;
+    }
+    h2{
+      font-size: 22px;
+    }
+    h3{
+      font-size: 18px;
+    }
+    nav{
+      padding-left: 0;
+      flex-direction: column;
+      .logo img{
+          height: 60px;
+      }
+      ul{
+        padding-left: 0;
+        gap: 14px;
+        li{
+          padding: 0;
+        }
+      }
+    }
+    section{
+      margin: 0 10px;
+    }
+    main{
+      .introduction{
+        .presentation{
+          flex-direction: column;
+          .present-img{
+            img{
+              height: 200px;
+            }
+          }
+        }
+      }
+      #valeurs{
+        .valeur{
+          flex-direction: column;
+          align-items: center;
+          gap: 24px;
+          .card-valeur{
+            width: 260px;
+            padding: 12px 18px;
+          }
+        }
+      }
+      .engagements{
+        .engagement{
+          padding: 0 12px;
+          gap: 24px;
+          .card-engagement {
+            flex-direction: column;
+            align-items: center;
+            .img-card-engagement{
+              img{
+                height: 90px;
+              }
+            }
+          }
+        }
+      }
+      .membres{
+        padding: 0 10px 48px 10px;
+        .main-membres{
+          align-items: center;
+          .row-membres{
+            flex-direction: column;
+            .card-membre{
+              width: 300px;
+              padding: 24px;
+              img{
+                height: 100px;
+              }
+            }
+          }
+        }
+      }
+      .soutenir{
+        .soutien {
+          background-image: none;
+          form{
+            flex-direction: column;
+            gap: 5px;
+          }
+        }
+      }
+    }
+    footer{
+      flex-direction: column;
+      padding: 24px 10px;
+      .apropos{
+        text-align: center;
+      }
+      .contact{
+        text-align: center;
+      }
+    }
     
-  
+  }
 }

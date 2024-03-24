@@ -135,6 +135,9 @@ body main .engagements .engagement .card-engagement .img-card-engagement {
 body main .engagements .engagement .card-engagement .text-card-engagement h3 {
   margin: 0;
 }
+body main .engagements #eco-cycle {
+  width: 100%;
+}
 body main #histoire h2 {
   text-align: center;
   margin-top: 40px;
@@ -181,6 +184,9 @@ body main .soutenir {
   flex-direction: column;
   align-items: center;
 }
+body main .soutenir img {
+  height: 300px;
+}
 body main .soutenir h2 {
   margin-bottom: 64px;
 }
@@ -211,6 +217,287 @@ body main .soutenir .soutien form .form-box {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+body main .soutenir .soutien form .form-box label {
+  padding-left: 8px;
+}
+body main .soutenir .soutien form .form-box input {
+  border: none;
+  border-radius: 8px;
+  margin: 8px 0;
+  padding: 8px;
+}
+body main .soutenir .soutien button {
+  background-color: rgba(171, 239, 99, 0.8);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 18px;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+body footer {
+  background-color: rgb(174, 224, 182);
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 120px;
+}
+body footer ul {
+  list-style: none;
+  padding: 0;
+}
+body footer ul li {
+  font-family: "Poppins-SemiBold", sans-serif;
+  padding: 6px 0;
+}
+body footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+body footer .reseau {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body footer .reseau .link-reseau {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+body footer .reseau .link-reseau img {
+  width: 90px;
+}
+body footer .reseau .link-reseau #insta {
+  height: 91.27px;
+}
+body footer .reseau .link-reseau #twitter {
+  height: 101.4px;
+}
+body footer .reseau .link-reseau #fb {
+  height: 90px;
+}
+
+@media screen and (max-width: 1450px) {
+  body section {
+    margin: 0 60px;
+  }
+  body main #valeurs .valeur .card-valeur {
+    width: 300px;
+    padding: 12px 18px;
+  }
+  body main .membres {
+    padding: 0 60px 48px 60px;
+  }
+  body main .membres .main-membres .row-membres .card-membre {
+    width: 600px;
+    padding: 24px;
+  }
+  body main .membres .main-membres .row-membres .card-membre img {
+    height: 200px;
+  }
+  body main .soutenir img {
+    height: 200px;
+  }
+  body footer .reseau img {
+    height: 75px;
+  }
+  body footer .reseau .link-reseau img {
+    width: 60px;
+  }
+  body footer .reseau .link-reseau #insta {
+    height: 61.27px;
+  }
+  body footer .reseau .link-reseau #twitter {
+    height: 71.4px;
+  }
+  body footer .reseau .link-reseau #fb {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 1165px) {
+  body section {
+    margin: 0 40px;
+  }
+  body main #valeurs .valeur .card-valeur {
+    width: 250px;
+    padding: 12px 18px;
+  }
+  body main .membres {
+    padding: 0 40px 48px 40px;
+  }
+  body main .membres .main-membres .row-membres .card-membre {
+    width: 500px;
+    padding: 24px;
+  }
+  body main .membres .main-membres .row-membres .card-membre img {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  body h1 {
+    font-size: 40px;
+    color: #2E9B08;
+  }
+  body h2 {
+    font-size: 28px;
+  }
+  body h3 {
+    font-size: 22px;
+  }
+  body nav {
+    padding-left: 5px;
+  }
+  body nav .logo img {
+    height: 60px;
+  }
+  body section {
+    margin: 0 20px;
+  }
+  body main .introduction .presentation {
+    gap: 18px;
+  }
+  body main .introduction .presentation .present-img img {
+    height: 200px;
+  }
+  body main #valeurs .valeur .card-valeur {
+    width: 200px;
+    padding: 12px 18px;
+  }
+  body main .membres {
+    padding: 0 20px 48px 20px;
+  }
+  body main .membres .main-membres {
+    align-items: center;
+  }
+  body main .membres .main-membres .row-membres {
+    flex-direction: column;
+    gap: 24px;
+  }
+  body main .membres .main-membres .row-membres .card-membre {
+    width: 500px;
+    padding: 24px;
+  }
+  body main .membres .main-membres .row-membres .card-membre img {
+    height: 150px;
+  }
+  body main .soutenir {
+    margin: 0;
+  }
+  body footer {
+    padding: 24px 20px;
+  }
+  body footer div {
+    width: 230px;
+  }
+  body footer .apropos ul li {
+    padding: 6px 0;
+  }
+  body footer .reseau .link-reseau img {
+    width: 50px;
+  }
+  body footer .reseau .link-reseau #insta {
+    height: 51.27px;
+  }
+  body footer .reseau .link-reseau #twitter {
+    height: 61.4px;
+  }
+  body footer .reseau .link-reseau #fb {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body p, body label {
+    font-size: 16px;
+  }
+  body h1 {
+    font-size: 30px;
+    color: #2E9B08;
+  }
+  body h2 {
+    font-size: 22px;
+  }
+  body h3 {
+    font-size: 18px;
+  }
+  body nav {
+    padding-left: 0;
+    flex-direction: column;
+  }
+  body nav .logo img {
+    height: 60px;
+  }
+  body nav ul {
+    padding-left: 0;
+    gap: 14px;
+  }
+  body nav ul li {
+    padding: 0;
+  }
+  body section {
+    margin: 0 10px;
+  }
+  body main .introduction .presentation {
+    flex-direction: column;
+  }
+  body main .introduction .presentation .present-img img {
+    height: 200px;
+  }
+  body main #valeurs .valeur {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  body main #valeurs .valeur .card-valeur {
+    width: 260px;
+    padding: 12px 18px;
+  }
+  body main .engagements .engagement {
+    padding: 0 12px;
+    gap: 24px;
+  }
+  body main .engagements .engagement .card-engagement {
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .engagements .engagement .card-engagement .img-card-engagement img {
+    height: 90px;
+  }
+  body main .membres {
+    padding: 0 10px 48px 10px;
+  }
+  body main .membres .main-membres {
+    align-items: center;
+  }
+  body main .membres .main-membres .row-membres {
+    flex-direction: column;
+  }
+  body main .membres .main-membres .row-membres .card-membre {
+    width: 300px;
+    padding: 24px;
+  }
+  body main .membres .main-membres .row-membres .card-membre img {
+    height: 100px;
+  }
+  body main .soutenir .soutien {
+    background-image: none;
+  }
+  body main .soutenir .soutien form {
+    flex-direction: column;
+    gap: 5px;
+  }
+  body footer {
+    flex-direction: column;
+    padding: 24px 10px;
+  }
+  body footer .apropos {
+    text-align: center;
+  }
+  body footer .contact {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
