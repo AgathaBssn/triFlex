@@ -64,5 +64,34 @@ $accent: #2E9B08;
   }
   .concurrence{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .concu-card{
+      padding: 16px;
+      border-radius: 18px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      text-align: left;    
+      width: 60%;
+      h3{
+        margin: 8px 0;
+      }
+    }
+    #first-card{
+      background-color: rgba(171, 239, 99, 0.8);
+    }
+    #second-card{
+      background-color: rgba(40, 233, 152, 1);
+    }
+    #third-card{
+      background-color: rgba(40, 233, 152, 0.5);
+    }
+    #fourth-card{
+      background-color: rgba(46, 155, 8, 0.7);
+    }
+    :nth-of-type(even){
+      margin-left: auto;
+      margin-right: 0;
+    }
   }
 }
