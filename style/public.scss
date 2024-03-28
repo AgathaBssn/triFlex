@@ -98,5 +98,63 @@ $accent: #2E9B08;
     .input-video{
       width: 100%;
     }
+    h2{
+      text-align: center;
+    }
+    h2:nth-of-type(2){
+      color: rgba(171, 239, 99, 0.8);
+    }
+    h3:nth-of-type(2){
+      color: rgba(40, 233, 152, 1);
+      text-align: center;
+    }
+    p{
+      margin: 20px 0;
+    }
+    .contribution{
+      text-align: center;
+      .global-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 80px;
+          height: 80px;
+          margin: 0 16px;
+        }
+      }
+      .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 24px;
+        gap: 32px;
+        .cont-card{
+          padding: 16px;
+          border-radius: 18px;
+          background-color: rgba(174, 224, 182, 1);
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          text-align: left;    
+          width: 300px;
+          .card-top{
+            text-align: center;
+            p{
+              margin: 6px 0;
+            }
+            p:nth-of-type(2){
+              color: rgba(46, 155, 8, 1);
+              font-weight: bold;
+              font-size: 46px;
+            }
+          }
+          .card-bottom{
+            ul{
+              list-style-type: none;
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
   }
 }
