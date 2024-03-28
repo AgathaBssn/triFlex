@@ -135,7 +135,7 @@ $accent: #2E9B08;
           background-color: rgba(174, 224, 182, 1);
           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
           text-align: left;    
-          width: 300px;
+          width: 340px;
           .card-top{
             text-align: center;
             p{
@@ -156,5 +156,54 @@ $accent: #2E9B08;
         }
       }
     }
+    .objectif{
+      margin-bottom: 36px;
+      h2{
+        color: black;
+        margin-top: 48px;
+      }
+      img{
+        width: 100%;
+      }
+      h2:nth-of-type(3){
+        text-align: left;
+      }
+    }
+  }
+}
+//Responsive ordinateur portable
+@media screen and (max-width: 1450px) {
+  #public .campagne .contribution .card-container .cont-card {
+    width: 300px;
+  }
+}
+//Responsive tablette verticale
+@media screen and (max-width: 1024px) {
+  #public{
+    margin: 0 10px;
+  }
+  #public .public-presentation .ressources{
+    flex-direction: column;
+    align-items: center;
+    .ressource{
+      width: 300px;
+    }
+  }
+  #public .public-presentation .explication{
+    img{
+      width: 150px;
+    }
+    .explication-text{
+      text-align: center;
+    }
+  }
+}
+//Responsive mobile
+@media screen and (max-width: 707px) {
+  #public .public-presentation .explication{
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
   }
 }
