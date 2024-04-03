@@ -1,0 +1,126 @@
+#orga h1 {
+  text-transform: uppercase;
+  margin: 16px 0;
+}
+#orga h2 {
+  margin: 16px 0;
+}
+#orga p {
+  margin: 12px 0;
+}
+#orga section {
+  margin: 0 82px;
+}
+#orga .presentation-orga {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+#orga .presentation-orga .pres-img {
+  display: flex;
+}
+#orga .presentation-orga .pres-img img {
+  max-width: 100%;
+  object-fit: contain;
+}
+#orga .orga-partners {
+  margin: 0;
+  background-color: rgba(69, 249, 6, 0.1);
+}
+#orga .orga-partners .orga-partenaires {
+  margin: 0 82px;
+  text-align: center;
+}
+#orga .orga-partners .orga-partenaires div {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+#orga .orga-partners .orga-partenaires div img {
+  max-width: 100%;
+  object-fit: contain;
+}
+#orga .orga-keys {
+  margin-bottom: 32px;
+}
+#orga .orga-keys h2 {
+  text-align: center;
+}
+#orga .orga-keys .orga-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 34px;
+}
+#orga .orga-keys .orga-cards .orga-card {
+  padding: 16px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: left;
+  width: 60%;
+}
+#orga .orga-keys .orga-cards .orga-card h3 {
+  margin: 8px 0;
+}
+#orga .orga-keys .orga-cards #first-card {
+  background-color: rgba(171, 239, 99, 0.8);
+}
+#orga .orga-keys .orga-cards #second-card {
+  background-color: rgb(40, 233, 152);
+}
+#orga .orga-keys .orga-cards #third-card {
+  background-color: rgba(40, 233, 152, 0.5);
+}
+#orga .orga-keys .orga-cards #fourth-card {
+  background-color: rgba(46, 155, 8, 0.7);
+}
+#orga .orga-keys .orga-cards :nth-of-type(even) {
+  margin-left: auto;
+  margin-right: 0;
+}
+#orga .orga-green {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+#orga .orga-green div:nth-last-child(1) {
+  display: flex;
+  min-width: 300px;
+}
+#orga .orga-green div:nth-last-child(1) img {
+  max-width: 100%;
+  object-fit: contain;
+}
+#orga .environnement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#orga .environnement img {
+  max-width: 350px;
+  object-fit: contain;
+  margin: auto;
+}
+#orga .CCI {
+  margin-bottom: 24px;
+}
+#orga .CCI h3 {
+  margin-bottom: 32px;
+}
+#orga .CCI p {
+  margin-bottom: 24px;
+}
+#orga .end-orga {
+  font-weight: bolder;
+}
+#orga .end-orga div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+#orga .end-orga div img {
+  max-width: 150px;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=orga.css.map */

@@ -1,0 +1,192 @@
+#public {
+  margin: 0 82px;
+}
+#public h1 {
+  text-transform: uppercase;
+  margin: 16px 0;
+}
+#public h2 {
+  margin: 16px 0;
+}
+#public p {
+  margin: 8px 0;
+}
+#public .public-presentation .ressources {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 46px;
+}
+#public .public-presentation .ressources .ressource {
+  background-color: rgba(40, 233, 152, 0.8);
+  padding: 16px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
+#public .public-presentation .ressources .ressource img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 8px;
+}
+#public .public-presentation .explication {
+  display: flex;
+  gap: 26px;
+}
+#public .public-presentation .explication img {
+  width: 300px;
+}
+#public .public-presentation .explication .explication-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#public .public-presentation img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+#public .caracteristiques {
+  margin-bottom: 48px;
+}
+#public .caracteristiques h2 {
+  text-align: center;
+}
+#public .concurrence {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#public .concurrence .concu-card {
+  padding: 16px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: left;
+  width: 60%;
+}
+#public .concurrence .concu-card h3 {
+  margin: 8px 0;
+}
+#public .concurrence #first-card {
+  background-color: rgba(171, 239, 99, 0.8);
+}
+#public .concurrence #second-card {
+  background-color: rgb(40, 233, 152);
+}
+#public .concurrence #third-card {
+  background-color: rgba(40, 233, 152, 0.5);
+}
+#public .concurrence #fourth-card {
+  background-color: rgba(46, 155, 8, 0.7);
+}
+#public .concurrence :nth-of-type(even) {
+  margin-left: auto;
+  margin-right: 0;
+}
+#public .campagne .input-video {
+  width: 100%;
+}
+#public .campagne h2 {
+  text-align: center;
+}
+#public .campagne h2:nth-of-type(2) {
+  color: rgba(171, 239, 99, 0.8);
+}
+#public .campagne h3:nth-of-type(2) {
+  color: rgb(40, 233, 152);
+  text-align: center;
+}
+#public .campagne p {
+  margin: 20px 0;
+}
+#public .campagne .contribution {
+  text-align: center;
+}
+#public .campagne .contribution .global-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#public .campagne .contribution .global-cont img {
+  width: 80px;
+  height: 80px;
+  margin: 0 16px;
+}
+#public .campagne .contribution .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 32px;
+}
+#public .campagne .contribution .card-container .cont-card {
+  padding: 16px;
+  border-radius: 18px;
+  background-color: rgb(174, 224, 182);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: left;
+  width: 340px;
+}
+#public .campagne .contribution .card-container .cont-card .card-top {
+  text-align: center;
+}
+#public .campagne .contribution .card-container .cont-card .card-top p {
+  margin: 6px 0;
+}
+#public .campagne .contribution .card-container .cont-card .card-top p:nth-of-type(2) {
+  color: rgb(46, 155, 8);
+  font-weight: bold;
+  font-size: 46px;
+}
+#public .campagne .contribution .card-container .cont-card .card-bottom ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+#public .campagne .objectif {
+  margin-bottom: 36px;
+}
+#public .campagne .objectif h2 {
+  color: black;
+  margin-top: 48px;
+}
+#public .campagne .objectif img {
+  width: 100%;
+}
+#public .campagne .objectif h2:nth-of-type(3) {
+  text-align: left;
+}
+
+@media screen and (max-width: 1450px) {
+  #public .campagne .contribution .card-container .cont-card {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #public {
+    margin: 0 10px;
+  }
+  #public .public-presentation .ressources {
+    flex-direction: column;
+    align-items: center;
+  }
+  #public .public-presentation .ressources .ressource {
+    width: 300px;
+  }
+  #public .public-presentation .explication img {
+    width: 150px;
+  }
+  #public .public-presentation .explication .explication-text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 707px) {
+  #public .public-presentation .explication {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=public.css.map */
