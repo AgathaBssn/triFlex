@@ -2,13 +2,13 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/Poppins/Poppins-Regular.ttf");
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins-SemiBold";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -35,7 +35,7 @@ body nav {
   justify-content: space-between;
   align-items: center;
   padding-left: 100px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 body nav .logo img {
   height: 90px;
