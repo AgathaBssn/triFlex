@@ -33,6 +33,13 @@ $accent: #2E9B08;
     }
     
   }
+  .orga-don div {
+    text-align: center;
+    img{
+    max-width: 100%;
+    object-fit: contain;
+    }    
+  }
   .orga-partners{
     margin: 0;
     background-color: rgba(69, 249, 6, 0.1);
@@ -134,4 +141,30 @@ $accent: #2E9B08;
     }
   }
   
+}
+@media screen and (max-width: 1100px) {
+  #orga .orga-partners .orga-partenaires div img{
+    height: 70px;
+  }
+}
+@media screen and (max-width: 860px) {
+  #orga .orga-partners .orga-partenaires div{
+    flex-direction: column;
+  }
+  #orga .orga-keys .orga-cards{
+    margin: auto;
+    :nth-of-type(even){
+      margin-right: auto;
+    }
+    .orga-card{
+      width: 100%;
+    }
+  }
+  #orga .orga-green{
+    flex-direction: column;
+  }
+  #orga .orga-green div:nth-last-child(1) img{
+    height: 200px;
+    margin: auto;
+  }
 }

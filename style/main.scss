@@ -39,6 +39,30 @@ body {
   h3{
     font-size: 26px;
   }
+  span{
+    font-weight: bold;
+  }
+  .bouton-telechargement{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border: none;
+    outline: none;
+    :hover{
+      background-color: #45a049;
+    }
+    :focus{
+      box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+      outline: none;
+    }
+  }
+  
   //Header
   nav{
     display: flex;
@@ -190,11 +214,13 @@ body {
             border-radius: 25px;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             display: flex;
+            align-items: start;
             flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
             width: 732px;
             padding: 36px 80px;
+            img{
+              margin: auto;
+            }
             p{
               margin: 8px 0;
             }
@@ -220,7 +246,6 @@ body {
         margin-bottom: 0;
       }
       .soutien{
-        background-image: url('media/img_background_soutien.png');
         max-width: 1131px;
         padding: 24px 12px;
         img{
@@ -294,14 +319,6 @@ body {
         justify-content: center;
         img {
           width: 90px;
-        }
-        #insta{
-          height: 91.27px;
-        }
-        #twitter{
-          height: 101.4px;
-        }
-        #fb{
           height: 90px;
         }
       }
@@ -343,14 +360,6 @@ body {
         .link-reseau{
           img{
             width: 60px;
-          }
-          #insta{
-            height: 61.27px;
-          }
-          #twitter{
-            height: 71.4px;
-          }
-          #fb{
             height: 60px;
           }
         }
@@ -457,21 +466,13 @@ body {
         .link-reseau {
           img {
             width: 50px;
-          }
-          #insta {
-            height: 51.27px;
-          }
-          #twitter {
-            height: 61.4px;
-          }
-          #fb {
             height: 50px;
+          }
           }
         }
       }
     }
   }
-}
 //Responsive mobile
 @media screen and (max-width: 767px) {
   body{
